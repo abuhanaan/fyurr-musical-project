@@ -18,8 +18,6 @@ from models import Venue, Show, Artist, app, db
 
 
 # TODO: connect to a local postgresql database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:adeola_99@localhost:5432/fyurrdb'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 #----------------------------------------------------------------------------#
 # Filters.
