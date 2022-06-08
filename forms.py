@@ -88,11 +88,14 @@ class VenueForm(Form):
     image_link = StringField(
         'image_link'
     )
-    website = StringField(
-        'website'
+    website_link = StringField(
+        'website_link'
     )
     seeking_description = StringField(
         'seeking_description'
+    )
+    seeking_talent = StringField(
+        'seeking_talent'
     )
     genres = SelectMultipleField(
         # TODO implement enum restriction
