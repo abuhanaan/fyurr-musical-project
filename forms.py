@@ -196,8 +196,8 @@ class ArtistForm(Form):
         # TODO implement validation logic for state
         'phone'
     )
-    website = StringField(
-        'website'
+    website_link = StringField(
+        'website_link'
     )
     seeking_description = StringField(
         'seeking_description'
